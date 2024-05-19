@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net481;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>Sebastian Becker</Authors>
+    <Description>HotkeyManager is a .Net WinForms library that allows setting up and handling global hotkeys.</Description>
+    <Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) $(Authors)</Copyright>
+    <PackageProjectUrl>https://github.com/SebastianBecker2/HotkeyManager</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/SebastianBecker2/HotkeyManager</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>windows; winforms; Hotkey; Hotkeys</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <Title>HotkeyManager</Title>
+    <PackageId>HotkeyManager</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
