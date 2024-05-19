@@ -22,6 +22,7 @@
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <Title>HotkeyManager</Title>
     <PackageId>HotkeyManager</PackageId>
+    <VersionPrefix>1.0.1</VersionPrefix>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
